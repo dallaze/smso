@@ -1,5 +1,5 @@
 <?php
-$url = $_ENV["ttps://041d6327-e993-45ab-af63-a93731d8b1ba:FHsrl_va-YF5RDA0yNRhrg@api.blower.io"] . "/messages";
+$url = $_ENV["https://041d6327-e993-45ab-af63-a93731d8b1ba:FHsrl_va-YF5RDA0yNRhrg@api.blower.io"] . "/messages";
 $data = array('to' => '+218926857399', 'message' => 'Hello from Blower.io'); 
 $ch = curl_init($url); 
 
